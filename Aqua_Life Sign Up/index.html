@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form | AquaLyfe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrap">
+        <div class="outer-wrap">
+            <div class="img-wrap">
+                <img src="Picture1.png" alt="">
+            </div>
+            <div class="form-wrap">
+                <h1>Log in</h1>
+                <p>Hello friends We're Aqua Lyfe. Here To Keep You Hydrated</p>
+                <form id="login-form" class="form">
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Email"><br>
+                    <input type="password" id="pass" name="pass" placeholder="Password"><br>
+                    <button type="button" class="btn" id="login-button">Let's start!</button>
+                </form>
+
+                <div class="social-login">
+                    <a href="#">
+                        <img src="google.png" alt="Google">
+                    </a>
+                    <a href="#">
+                        <img src="fb.png" alt="Facebook">
+                    </a>
+                </div>
+                <div class="bottom-text">
+                    <p>Don't have an account? <a href="#">Sign up</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript code to handle the login form and welcome message
+        const loginForm = document.getElementById("login-form");
+        const emailInput = document.getElementById("email");
+        const passwordInput = document.getElementById("pass");
+        const loginButton = document.getElementById("login-button");
+
+        // Add an event listener to the login button
+        loginButton.addEventListener("click", () => {
+            const email = emailInput.value;
+            const password = passwordInput.value;
+
+            // You can add your own authentication logic here.
+            // For this example, we'll use a simple check for demo purposes.
+            if (email === "user@example.com" && password === "password") {
+                // Successful login
+                alert("Welcome, " + email);
+            } else {
+                // Failed login
+                alert("Login failed. Please check your credentials.");
+            }
+        });
+    </script>
+</body>
+</html>
