@@ -88,10 +88,12 @@ header .container {
 }
 
 .logo img {
-  width: 40px;
-  
-  
+  width: 300px;
+  height: 180px;
+  text-align: center;
+   
 }
+
 .logo h3 {
   color: var(--darkTwo);
   font-size: 1.55rem;
