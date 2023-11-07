@@ -18,7 +18,7 @@ AquaLyfe isn't just your ordinary water tracking app; it's your new hydration pa
 
 ## Why AquaLyfe?
 
-AquaLyfe is more than just a hydration web  app; it's your go-to solution for a well-hydrated lifestyle. Download AquaLyfe today and make every sip count.
+AquaLyfe is more than just a hydration web  app; it's your go-to solution for a well-hydrated lifestyle. Use AquaLyfe web app today and make every sip count.
 
 Stay hydrated, stay healthy with AquaLyfe. 💦
 
