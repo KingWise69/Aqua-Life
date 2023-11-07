@@ -22,7 +22,11 @@ AquaLyfe is more than just a hydration web  app; it's your go-to solution for a 
 
 Stay hydrated, stay healthy with AquaLyfe. 💦
 
-Mobile App ****Coming Soon******
+## Coming Soon - AquaLyfe  App
+
+Exciting news! We're currently working on an AquaLyfe Mobile app to complement the mobile experience. Stay tuned for the release of the Mobile App version, which will bring AquaLyfe to your phone and other platforms. 
+
+**Stay hydrated, no matter where you are** - AquaLyfe is expanding to keep you refreshed.
 
 From Trello:
 https://trello.com/b/oRogq09Y/aqualyf-hydration-reminder-app
