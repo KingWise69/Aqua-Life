@@ -26,3 +26,12 @@ Mobile App ****Coming Soon******
 
 From Trello:
 https://trello.com/b/oRogq09Y/aqualyf-hydration-reminder-app
+
+
+## Contributors
+
+- Magezi Joshua (Backend Developer)
+- Himika Samuel (Project Manager)
+- Mukiibi Isaiah (Frontend Developer)
+- Simon Katende (Sales Manager)
+
