@@ -16,6 +16,8 @@ AquaLyfe isn't just your ordinary water tracking app; it's your new hydration pa
 
 🌟 **New Feature - Find Nearby Supermarkets for Water**: Never run out of water again! AquaLyfe now helps you locate nearby supermarkets where you can conveniently purchase your preferred bottled water. Stay refreshed and hydrated, wherever you are.
 
+☀️ **Weather Update**: Stay informed about the weather. AquaLyfe now provides you with weather updates, so you can plan your hydration according to the weather conditions. Whether it's a sunny day or a rainy afternoon, AquaLyfe helps you adjust your water intake accordingly.
+
 ## Why AquaLyfe?
 
 AquaLyfe is more than just a hydration web  app; it's your go-to solution for a well-hydrated lifestyle. Use AquaLyfe web app today and make every sip count.
