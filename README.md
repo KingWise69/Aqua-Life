@@ -4,7 +4,7 @@ Welcome to **AquaLyfe**, the ultimate Web application to revolutionize your hydr
 
 ## About AquaLyfe
 
-AquaLyfe isn't just your ordinary water tracking app; it's your new hydration partner. We've added a splash of innovation to make your journey towards a healthier, more hydrated you more exciting.
+AquaLyfe isn't just your ordinary water reminder  app; it's your new hydration partner. We've added a splash of innovation to make your journey towards a healthier, more hydrated you more exciting.
 
 ## Features
 
@@ -23,6 +23,14 @@ AquaLyfe isn't just your ordinary water tracking app; it's your new hydration pa
 AquaLyfe is more than just a hydration web  app; it's your go-to solution for a well-hydrated lifestyle. Use AquaLyfe web app today and make every sip count.
 
 Stay hydrated, stay healthy with AquaLyfe. 💦
+
+## Pitch Deck
+
+For more information about AquaLyfe, please check out our [Pitch Deck](https://gamma.app/docs/Copy-of-Startup-Pitch-Deck-Template-rxnin0ldxgs5dvy?mode=doc).
+
+## Kanban Board (Trello)
+
+Explore our progress and development on our [Kanban Board](https://trello.com/b/oRogq09Y/aqualyf-hydration-reminder-app) in Trello.
 
 ## Coming Soon - AquaLyfe  App
 
