@@ -38,9 +38,6 @@ Exciting news! We're currently working on an AquaLyfe Mobile app to complement t
 
 **Stay hydrated, no matter where you are** - AquaLyfe is expanding to keep you refreshed.
 
-From Trello:
-https://trello.com/b/oRogq09Y/aqualyf-hydration-reminder-app
-
 
 ## Contributors
 
