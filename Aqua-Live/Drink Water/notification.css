@@ -1,0 +1,13 @@
+/* Add styles for the notification icon */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+  }
+  
+  /* Add any additional styles you need */
+  
