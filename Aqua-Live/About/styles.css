@@ -1,61 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
-#about-section {
-    width: 100%;
-    height: auto;
+.wrapper{
+    position: relative;
     display: flex;
-    flex-direction: column; /* Change to column for small screens */
+    justify-content: center;
     align-items: center;
-    padding: 80px 12%;
 }
-
-.about-left img {
-    width: 100%; /* Make the image fill its container */
-    height: auto;
-    transform: translateY(0); /* Adjust as needed */
+.background-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex; 
 }
-
-.about-right {
-    width: 100%; /* Take full width on small screens */
-    margin-top: 20px; /* Add some space between the image and content */
+.bg-1{
+    flex: 1;
+    background-color: #0262bc;
 }
-
-/* ... (existing styles remain unchanged) */
-
-/* Media queries for responsiveness */
-
-@media only screen and (max-width: 768px) {
-    #about-section {
-        padding: 50px 5%; /* Adjust padding for smaller screens */
+.bg-2{
+    flex: 1;
+    background-color: f1f3f6;
+}
+.about-container{
+    width: 85%;
+    min-height: 80vh;
+    position: absolute;
+    background-color: white;
+    box-shadow: 24px 24px 30px #6d8dad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+.image-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.text-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 22px;
+}
+.text-container h1{
+    font-size: 70px;
+    padding: 20px 0px;
+}
+.text-container a{
+    text-decoration: none;
+    padding: 12px;
+    margin: 50px 0px;
+    background-color: #0262bc;
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 5px;
+    transition: .3s all ease;
+}
+.text-container a:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid #0262bc;
+}
+@media screen and (max-width: 1600px){
+    .about-container{
+        width: 90%;
     }
-
-    .about-right ul {
-        width: 100%; /* Take full width on small screens */
+    .image-container img{
+        width: 400px;
+        height: 400px;
     }
-
-    .expertise {
-        text-align: center; /* Center text on small screens */
+    .text-container h1{
+        font-size: 50px;
     }
 }
-
-.button {
-	display: inline-block;
-	padding: 10px 20px;
-	font-size: 16px;
-	text-decoration: none;
-	background-color: #0262bc;
-	color: #fff;
-	border-radius: 5px;
-	transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-	background-color: #0262bc;
-  }
+@media screen and (max-width: 1100px){
+    .about-container{
+        flex-direction: column;
+    }
+    .image-container img{
+        width: 300px;
+        height: 300px;
+    }
+    .text-container {
+        align-items: center;
+    }
+}
