@@ -3,20 +3,44 @@
 <head>
     <title>AQUALYFE</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        .content {
+            position: relative;
+            text-align: center;
+        }
+        .countdown {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #03a9f4;
+            font-size: 2em;
+        }
+    </style>
     <script>
         window.onload = function () {
-            setTimeout(function() {
-                window.location.href = "/landingPage/landingPage.html";
-            }, 5000); // 5000 milliseconds = 5 seconds
+            var countdownElement = document.createElement('div');
+            countdownElement.className = 'countdown';
+            document.body.appendChild(countdownElement);
+
+            var countdown = 5;
+            var countdownInterval = setInterval(function() {
+                countdownElement.innerHTML = "Loading next page in " + countdown + " seconds";
+                countdown--;
+
+                if (countdown < 0) {
+                    clearInterval(countdownInterval);
+                    window.location.href = "/landingPage/landingPage.html";
+                }
+            }, 1000); // Update every 1 second
         }
     </script>
 </head>
 <body>
     <div class="content">
-        <a href="/landingPage/landingPage.html" class="btn"><h2>AQUALYFE</h2></a>
+        <a href="" class="btn"><h2>AQUALYFE</h2></a>
         <h2>AQUALYFE</h2>
-        <a href="/landingPage/landingPage.html" class="btn"></a>
+        <a href="" class="btn"></a>
     </div>
 </body>
 </html>
-
