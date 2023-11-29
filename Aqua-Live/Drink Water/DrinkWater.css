@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -50,9 +51,10 @@ body {
 h1 {
   padding: 30px 0 10px;
   text-align: center;
-  font-family: "Caveat", cursive;
-  font-size: 36px;
-  color: rgb(49, 49, 49, 0.7);
+  font-size: 1.55rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #312f3a;
 }
 p {
   padding-bottom: 15px;
@@ -194,7 +196,7 @@ select:focus {
   font-family: "Font Awesome 5 Free";
   content: "\f580";
   transform: scale(1.8, 1.8);
-  color: rgb(146, 216, 227);
+  color: rgba(0,0,0,0.5);
   display: flex;
   align-items: center;
   justify-content: center;
