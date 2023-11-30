@@ -44,16 +44,14 @@ function showImmediateReminder(iconPath) {
     // Request permission to show notifications
     Notification.requestPermission().then(permission => {
       if (permission === 'granted') {
-        // Create a notification with an image
+        // Create a notification with additional options
         const notification = new Notification("Aqua-Lyfe Reminder", {
           body: "It's time to take a sip and stay hydrated!",
-          icon: iconPath
+          icon: iconPath,
+          badge: '/logo.png', // Replace with the path to your badge image
+          vibrate: [200, 100, 200], // Vibration pattern
+          sound: '/WaterDrop.mp3' // Replace with the path to your notification sound
         });
-
-        // Close the notification after a few seconds (adjust as needed)
-        setTimeout(() => {
-          notification.close();
-        }, 5000); // 5000 milliseconds (5 seconds)
       }
     });
   }
