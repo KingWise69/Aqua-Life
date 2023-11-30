@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Fixed icon path (replace with the path to your business logo)
-  const iconPath = "/logo.png";
+  const iconPath = "logo.png";
 
   // Show an immediate notification with vibration and icon
   showImmediateReminder(iconPath);
@@ -35,22 +35,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function showImmediateReminder(iconPath) {
   // Use vibration API if available
-  if ('vibrate' in navigator) {
+  if ("vibrate" in navigator) {
     navigator.vibrate([200, 100, 200]); // Default vibration pattern
   }
 
   // Check if the Notification API is supported
-  if ('Notification' in window) {
+  if ("Notification" in window) {
     // Request permission to show notifications
     Notification.requestPermission().then(permission => {
-      if (permission === 'granted') {
+      if (permission === "granted") {
         // Create a notification with additional options
         const notification = new Notification("Aqua-Lyfe Reminder", {
           body: "It's time to take a sip and stay hydrated!",
           icon: iconPath,
-          badge: '/logo.png', // Replace with the path to your badge image
+          badge: "logo.png", // Replace with the path to your badge image
           vibrate: [200, 100, 200], // Vibration pattern
-          sound: '/WaterDrop.mp3' // Replace with the path to your notification sound
+          sound: "WaterDrop.mp3" // Replace with the path to your notification sound
         });
       }
     });
