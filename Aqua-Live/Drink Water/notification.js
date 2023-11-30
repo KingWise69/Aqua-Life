@@ -49,6 +49,11 @@ function showImmediateReminder(iconPath) {
           body: "It's time to take a sip and stay hydrated!",
           icon: iconPath
         });
+
+        // Close the notification after a few seconds (adjust as needed)
+        setTimeout(() => {
+          notification.close();
+        }, 5000); // 5000 milliseconds (5 seconds)
       }
     });
   }
