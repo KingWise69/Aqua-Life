@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
   <link rel="stylesheet" href="styles.css">
-  <title>Hydro Calc</title>
+  <title>Hydration Calculator</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
           <img src="drinking-water-animate.svg" alt="Water Animation">
         </div>
         <div class="text-container">
-          <h1>Calculate Your Intake</h1>
+          <h1>Hydration Calculator</h1>
           <form id="hydrationForm">
 
             <!-- Height Input -->
@@ -52,8 +52,17 @@
 
             <!-- Active Input -->
             <div class="form-section">
-              <label for="active">How active are you? (yes or no):</label>
-              <select id="weight" required>
+              <label for="active">Are you physically active? (yes or no):</label>
+              <select id="active" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+
+            <!-- Health Complications Input -->
+            <div class="form-section">
+              <label for="healthComplications">Do You suffer From any Health Complications? (yes or no):</label>
+              <select id="healthComplications" required>
                 <option value="Yes">Yes</option>
                 <option value="No">No</option>
               </select>
@@ -76,17 +85,16 @@
           <div id="result" class="form-section"></div>
 
           <!-- Back Button -->
-          
           <div class="button-container">
             <a href="/Drink Water/DrinkWater.html" class="button">
-              <i class='bx bx-arrow-back'></i> Hydrate Now
+              <i class='bx bx-arrow-back'></i> Start Drinking
             </a>
             
             <a href="/landingPage/landingPage.html" class="button">
               <i class='bx bx-arrow-back'></i> Dashboard
             </a>
           </div>
-         
+
         </div>
 
       </div>
