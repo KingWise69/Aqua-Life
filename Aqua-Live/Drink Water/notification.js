@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Fixed icon path (replace with the path to your business logo)
   const iconPath = "/logo.png";
 
-  // Show an immediate pop-up message with vibration and icon
+  // Show an immediate notification with vibration and icon
   showImmediateReminder(iconPath);
 
   // Schedule reminder based on the user-defined interval
@@ -39,11 +39,17 @@ function showImmediateReminder(iconPath) {
     navigator.vibrate([200, 100, 200]); // Default vibration pattern
   }
 
-  // Create a temporary image element for the icon
-  const iconImg = new Image();
-  iconImg.src = iconPath;
-  iconImg.style.width = '50px'; // Adjust the width as needed
-
-  // Show an immediate pop-up message with icon
-  alert("Aqua-Lyfe Reminder: It's time to take a sip and stay hydrated!", iconImg);
+  // Check if the Notification API is supported
+  if ('Notification' in window) {
+    // Request permission to show notifications
+    Notification.requestPermission().then(permission => {
+      if (permission === 'granted') {
+        // Create a notification with an image
+        const notification = new Notification("Aqua-Lyfe Reminder", {
+          body: "It's time to take a sip and stay hydrated!",
+          icon: iconPath
+        });
+      }
+    });
+  }
 }
