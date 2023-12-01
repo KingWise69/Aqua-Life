@@ -18,8 +18,8 @@ function calculateWaterIntake() {
     Notification.requestPermission().then((permission) => {
       if (permission === 'granted') {
         const notification = new Notification('Hydration Reminder', {
-          body: 'It's time to drink water! Recommended Intake: ${recommendedIntake} liters',
-          icon: "/logo.png", // Add the logo path for the notification
+          body: `It's time to drink water! Recommended Intake: ${recommendedIntake} liters`,
+          icon: '/logo.png', // Add the logo path for the notification
         });
 
         // Vibrate for 1 second
