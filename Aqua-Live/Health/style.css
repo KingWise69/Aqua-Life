@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Proxima Nova';
+  font-family: "Poppins", sans-serif;
 }
 
 #grid {
@@ -17,7 +17,7 @@ body {
 }
 
 #logo {
-  font-family: synthemesc, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 3rem;
