@@ -7,7 +7,7 @@ function calculateWaterIntake() {
   const hasHealthComplications = document.getElementById('healthComplications').value === 'Yes';
 
   // Replace 'path/to/logo.png' with the actual path to your logo
-  const logoPath = 'path/to/logo.png';
+  const logoPath = '/logo.png';
 
   const recommendedIntake = calculateRecommendedIntake(weight, height, isPhysicallyActive, hasHealthComplications, logoPath);
 
@@ -19,7 +19,7 @@ function calculateWaterIntake() {
       if (permission === 'granted') {
         const notification = new Notification('Hydration Reminder', {
           body: `It's time to drink water! Recommended Intake: ${recommendedIntake} liters`,
-          icon: '/logo.png', // Add the logo path for the notification
+          icon: '/logo.png', 
         });
 
         // Vibrate for 1 second
