@@ -6,7 +6,10 @@ function calculateWaterIntake() {
   const isPhysicallyActive = document.getElementById('active').value === 'Yes';
   const hasHealthComplications = document.getElementById('healthComplications').value === 'Yes';
 
-  const recommendedIntake = calculateRecommendedIntake(weight, height, isPhysicallyActive, hasHealthComplications);
+  // Replace 'path/to/logo.png' with the actual path to your logo
+  const logoPath = 'path/to/logo.png';
+
+  const recommendedIntake = calculateRecommendedIntake(weight, height, isPhysicallyActive, hasHealthComplications, logoPath);
 
   document.getElementById('result').innerText = `Recommended Water Intake: ${recommendedIntake} liters`;
 
@@ -16,6 +19,7 @@ function calculateWaterIntake() {
       if (permission === 'granted') {
         const notification = new Notification('Hydration Reminder', {
           body: `It's time to drink water! Recommended Intake: ${recommendedIntake} liters`,
+          icon: '/logo.png', // Add the logo path for the notification
         });
 
         // Vibrate for 1 second
@@ -27,7 +31,7 @@ function calculateWaterIntake() {
   }
 }
 
-function calculateRecommendedIntake(weight, height, isPhysicallyActive, hasHealthComplications) {
+function calculateRecommendedIntake(weight, height, isPhysicallyActive, hasHealthComplications, logoPath) {
   // Adjust this function based on your recommended intake calculation logic.
   // Using the provided information as a guideline.
 
