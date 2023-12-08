@@ -25,7 +25,7 @@ Stay hydrated, stay healthy with AquaLyfe. 💦
 
 ## Pitch Deck
 
-For more information about AquaLyfe, please check out our [Pitch Deck](https://gamma.app/docs/AQUA-LYFE-HYDRATION-rxnin0ldxgs5dvy?mode=doc).
+For more information about AquaLyfe, please check out our [Pitch Deck]([https://gamma.app/docs/AQUA-LYFE-HYDRATION-rxnin0ldxgs5dvy?mode=doc](https://www.canva.com/design/DAF1jF2Rx-E/uEvyCftKZpOn0QHq46MaJw/edit?utm_content=DAF1jF2Rx-E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)).
 
 ## Kanban Board (Trello)
 
