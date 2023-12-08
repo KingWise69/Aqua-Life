@@ -22,6 +22,8 @@ AquaLyfe isn't just your ordinary water reminder app; it's your new hydration pa
 
 ☀️ **Weather Update**: Stay informed about the weather. AquaLyfe now provides you with weather updates, so you can plan your hydration according to the weather conditions. Whether it's a sunny day or a rainy afternoon, AquaLyfe helps you adjust your water intake accordingly.
 
+🌿 **Healthy Drinks Recommendations**:Enhance your hydration experience with AquaLyfe's carefully curated selection of healthy drinks-🍵 🥤 🥛
+
 ## Why AquaLyfe?
 
 AquaLyfe is more than just a hydration web app; it's your go-to solution for a well-hydrated lifestyle. Use AquaLyfe web app today and make every sip count.
