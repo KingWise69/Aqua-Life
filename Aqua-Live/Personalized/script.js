@@ -5,11 +5,24 @@ function calculateWaterIntake() {
   const height = parseFloat(document.getElementById('height').value);
   const isPhysicallyActive = document.getElementById('active').value === 'Yes';
   const hasHealthComplications = document.getElementById('healthComplications').value === 'Yes';
+  
 
   // Replace 'path/to/logo.png' with the actual path to your logo
   const logoPath = '/logo.png';
 
   const recommendedIntake = calculateRecommendedIntake(weight, height, isPhysicallyActive, hasHealthComplications, logoPath);
+  const formData = new FormData(document.getElementById('hydrationForm'));
+  fetch('/saveUserData', {
+    method: 'POST',
+    body: formData,
+  })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Data saved successfully:', data);
+    })
+    .catch(error => {
+      console.error('Error saving data:', error);
+    });
 
   document.getElementById('result').innerText = `Recommended Water Intake: ${recommendedIntake} liters`;
 
