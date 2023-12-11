@@ -11,7 +11,7 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 ![AquaLyfe Home](scr/Start-Page.jpg)
 
 ### Reminders
-![AquaLyfe Reminders](scr/water-tracker.jpg)
+![AquaLyfe Reminders](scr/Water-tracker.jpg)
 
 ### Notification
 ![AquaLyfe Notification](scr/Notification-pops.jpg)
