@@ -7,43 +7,39 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 
 ## How the App works (Screenshots)
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
 
   <!-- Home Screen -->
   <div>
-    <img src="scr/Start-Page.jpg" alt="AquaLyfe Home" width="300">
     <p>Home Screen</p>
+    <img src="scr/Start-Page.jpg" alt="AquaLyfe Home" width="300">
   </div>
 
   <!-- Water Tracker -->
   <div>
-    <img src="scr/Water-tracker.jpg" alt="AquaLyfe Water Tracker" width="300">
     <p>Water Tracker</p>
+    <img src="scr/Water-tracker.jpg" alt="AquaLyfe Water Tracker" width="300">
   </div>
 
   <!-- Notification -->
   <div>
-    <img src="scr/Notification-pops.jpg" alt="AquaLyfe Notification" width="300">
     <p>Notification</p>
+    <img src="scr/Notification-pops.jpg" alt="AquaLyfe Notification" width="300">
   </div>
 
   <!-- Weather Update -->
   <div>
-    <img src="scr/weather.jpg" alt="AquaLyfe Weather" width="300">
     <p>Weather Update</p>
+    <img src="scr/weather.jpg" alt="AquaLyfe Weather" width="300">
   </div>
 
   <!-- Hydration Calculator -->
   <div>
-    <img src="scr/Hydration-calculator.jpg" alt="AquaLyfe Hydration Calculator" width="300">
     <p>Hydration Calculator</p>
+    <img src="scr/Hydration-calculator.jpg" alt="AquaLyfe Hydration Calculator" width="300">
   </div>
 
 </div>
-
-
-
-
 
 ...
 ## About AquaLyfe
