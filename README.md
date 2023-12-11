@@ -17,10 +17,10 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 ![AquaLyfe Notification](scr/Notification-pops.jpg)
 
 ### Weather Update
-![AquaLyfe Weather](scr/Weather.jpg)
+![AquaLyfe Weather](scr/weather.jpg)
 
-### Health Drinks Recommendation
-![AquaLyfe Health Drinks](scr/health-drinks-recommendation-page.jpg)
+### Hydration-calculator
+![AquaLyfe Health Drinks](scr/Hydration-calculator.jpg)
 
 ...
 ## About AquaLyfe
