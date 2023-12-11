@@ -1,25 +1,56 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const path = require('path');
+const { MongoClient } = require('mongodb');
+const { parse } = require('url');
+const next = require('next');
 
-const app = express();
-const PORT = process.env.PORT || 3000;
+const dev = process.env.NODE_ENV !== 'production';
+const app = next({ dev });
+const handle = app.getRequestHandler();
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+const MONGODB_URI = 'YOUR_MONGODB_URI'; // Replace with your MongoDB connection string
+const MONGODB_DB = 'YOUR_DB_NAME'; // Replace with your MongoDB database name
 
-// Serve static files (your HTML, CSS, and client-side scripts)
-app.use(express.static(path.join(__dirname, 'public')));
+app.prepare().then(() => {
+  const server = express();
+  const PORT = process.env.PORT || 3000;
 
-// Store user data in memory (replace this with a database in a production environment)
-const userData = [];
+  server.use(bodyParser.urlencoded({ extended: true }));
+  server.use(bodyParser.json());
 
-app.post('/saveUserData', (req, res) => {
-  const formData = req.body;
-  userData.push(formData);
-  res.json({ success: true });
-});
+  server.post('/api/saveUserData', async (req, res) => {
+    try {
+      const formData = req.body;
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+      // Connect to MongoDB
+      const client = new MongoClient(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+      await client.connect();
+
+      // Access the database
+      const db = client.db(MONGODB_DB);
+
+      // Insert the user data into the "userData" collection
+      const result = await db.collection('userData').insertOne(formData);
+
+      // Close the MongoDB connection
+      await client.close();
+
+      res.json({ success: true, insertedId: result.insertedId });
+    } catch (error) {
+      console.error('Error saving data:', error);
+      res.status(500).json({ success: false, error: error.message });
+    }
+  });
+
+  server.all('*', (req, res) => {
+    const parsedUrl = parse(req.url, true);
+    const { pathname } = parsedUrl;
+
+    return handle(req, res, parsedUrl);
+  });
+
+  server.listen(PORT, (err) => {
+    if (err) throw err;
+    console.log(`> Ready on http://localhost:${PORT}`);
+  });
 });
