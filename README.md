@@ -8,16 +8,16 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 ## Screenshots
 
 ### Home Screen
-![AquaLyfe Home](Scr/Start-page.jpg)
+![AquaLyfe Home](Scr/Start-Page.jpg)
 
 ### Reminders
-![AquaLyfe Reminders](Scr/water-tracker-page.jpg)
+![AquaLyfe Reminders](Scr/water-tracker.jpg)
 
 ### Notification
-![AquaLyfe Notification](Scr/Notification.jpg)
+![AquaLyfe Notification](Scr/Notification-pops.jpg)
 
 ### Weather Update
-![AquaLyfe Weather](Scr/weather-page.jpg)
+![AquaLyfe Weather](Scr/Weather.jpg)
 
 ### Health Drinks Recommendation
 ![AquaLyfe Health Drinks](Scr/health-drinks-recommendation-page.jpg)
