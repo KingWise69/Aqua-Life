@@ -29,7 +29,7 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 
   <!-- Weather Update -->
   <div>
-    <img src="scr/weather.jpg" alt="AquaLyfe Weather" width="300">
+    <img src="Scr/weather.jpg" alt="AquaLyfe Weather" width="300">
     <p>Weather Update</p>
   </div>
 
