@@ -30,7 +30,7 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
   <!-- Weather Update -->
   <div style="margin-right: 20px;">
     <p>Weather Update</p>
-    <img src="Scr/weather.jpg" alt="AquaLyfe Weather" width="300">
+    <img src="scr/weather.jpg" alt="AquaLyfe Weather" width="300">
   </div>
 
   <!-- Hydration Calculator -->
