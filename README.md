@@ -7,7 +7,7 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 
 ## How the App works (Screenshots)
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; flex-direction: column; align-items: center;">
 
   <!-- Home Screen -->
   <div>
@@ -38,6 +38,9 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
     <img src="scr/Hydration-calculator.jpg" alt="AquaLyfe Hydration Calculator" width="300">
     <p>Hydration Calculator</p>
   </div>
+
+</div>
+
 
 ...
 ## About AquaLyfe
