@@ -20,7 +20,7 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 ![AquaLyfe Notification](scr/Notification-pops.jpg)
 
 ### Weather Update
-<img src="Scr/weather.jpg" alt="AquaLyfe Weather" width="300">
+<img src="scr/weather.jpg" alt="AquaLyfe Weather" width="300">
 ![AquaLyfe Weather](scr/weather.jpg)
 
 ### Hydration-calculator
