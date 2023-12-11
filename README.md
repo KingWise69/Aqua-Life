@@ -8,19 +8,24 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 ## How the App works (Screenshots)
 
 ### Home Screen
+<img src="scr/Start-Page.jpg" alt="AquaLyfe Home" width="300">
 ![AquaLyfe Home](scr/Start-Page.jpg)
 
 ### Water Tracker
+<img src="scr/Water-tracker.jpg" alt="AquaLyfe Reminders" width="300">
 ![AquaLyfe Reminders](scr/Water-tracker.jpg)
 
 ### Notification
+<img src="scr/Notification-pops.jpg" alt="AquaLyfe Notification" width="300">
 ![AquaLyfe Notification](scr/Notification-pops.jpg)
 
 ### Weather Update
+<img src="Scr/weather.jpg" alt="AquaLyfe Weather" width="300">
 ![AquaLyfe Weather](scr/weather.jpg)
 
 ### Hydration-calculator
-![AquaLyfe Health Drinks](scr/Hydration-calculator.jpg)
+<img src="scr/Hydration-calculator.jpg" alt="AquaLyfe Hydration-calculator" width="300">
+![AquaLyfe Hydration-calculator](scr/Hydration-calculator.jpg)
 
 ...
 ## About AquaLyfe
