@@ -5,22 +5,22 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 ![AquaLyfe Greeting](https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+We're+Aqua+Lyfe!;)
 ...
 
-## Screenshots
+## How the App works (Screenshots)
 
 ### Home Screen
-![AquaLyfe Home](Scr/Start-Page.jpg)
+![AquaLyfe Home](scr/Start-Page.jpg)
 
 ### Reminders
-![AquaLyfe Reminders](Scr/water-tracker.jpg)
+![AquaLyfe Reminders](scr/water-tracker.jpg)
 
 ### Notification
-![AquaLyfe Notification](Scr/Notification-pops.jpg)
+![AquaLyfe Notification](scr/Notification-pops.jpg)
 
 ### Weather Update
-![AquaLyfe Weather](Scr/Weather.jpg)
+![AquaLyfe Weather](scr/Weather.jpg)
 
 ### Health Drinks Recommendation
-![AquaLyfe Health Drinks](Scr/health-drinks-recommendation-page.jpg)
+![AquaLyfe Health Drinks](scr/health-drinks-recommendation-page.jpg)
 
 ...
 ## About AquaLyfe
