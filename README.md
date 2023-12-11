@@ -7,25 +7,37 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 
 ## How the App works (Screenshots)
 
-### Home Screen
-<img src="scr/Start-Page.jpg" alt="AquaLyfe Home" width="300">
-![AquaLyfe Home](scr/Start-Page.jpg)
+<div style="display: flex; justify-content: space-between;">
 
-### Water Tracker
-<img src="scr/Water-tracker.jpg" alt="AquaLyfe Reminders" width="300">
-![AquaLyfe Reminders](scr/Water-tracker.jpg)
+  <!-- Home Screen -->
+  <div>
+    <img src="scr/Start-Page.jpg" alt="AquaLyfe Home" width="300">
+    <p>Home Screen</p>
+  </div>
 
-### Notification
-<img src="scr/Notification-pops.jpg" alt="AquaLyfe Notification" width="300">
-![AquaLyfe Notification](scr/Notification-pops.jpg)
+  <!-- Water Tracker -->
+  <div>
+    <img src="scr/Water-tracker.jpg" alt="AquaLyfe Water Tracker" width="300">
+    <p>Water Tracker</p>
+  </div>
 
-### Weather Update
-<img src="scr/weather.jpg" alt="AquaLyfe Weather" width="300">
-![AquaLyfe Weather](scr/weather.jpg)
+  <!-- Notification -->
+  <div>
+    <img src="scr/Notification-pops.jpg" alt="AquaLyfe Notification" width="300">
+    <p>Notification</p>
+  </div>
 
-### Hydration-calculator
-<img src="scr/Hydration-calculator.jpg" alt="AquaLyfe Hydration-calculator" width="300">
-![AquaLyfe Hydration-calculator](scr/Hydration-calculator.jpg)
+  <!-- Weather Update -->
+  <div>
+    <img src="Scr/weather.jpg" alt="AquaLyfe Weather" width="300">
+    <p>Weather Update</p>
+  </div>
+
+  <!-- Hydration Calculator -->
+  <div>
+    <img src="scr/Hydration-calculator.jpg" alt="AquaLyfe Hydration Calculator" width="300">
+    <p>Hydration Calculator</p>
+  </div>
 
 ...
 ## About AquaLyfe
