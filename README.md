@@ -7,7 +7,7 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 
 ## How the App works (Screenshots)
 
-<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; justify-content: space-between;">
 
   <!-- Home Screen -->
   <div>
