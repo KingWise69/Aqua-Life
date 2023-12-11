@@ -3,7 +3,26 @@
 Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydration game. 📱💧
 
 ![AquaLyfe Greeting](https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+We're+Aqua+Lyfe!;)
+...
 
+## Screenshots
+
+### Home Screen
+![AquaLyfe Home](Scr/Start-page.jpg)
+
+### Reminders
+![AquaLyfe Reminders](Scr/water-tracker-page.jpg)
+
+### Notification
+![AquaLyfe Notification](Scr/Notification.jpg)
+
+### Weather Update
+![AquaLyfe Weather](Scr/weather-page.jpg)
+
+### Health Drinks Recommendation
+![AquaLyfe Health Drinks](Scr/health-drinks-recommendation-page.jpg)
+
+...
 ## About AquaLyfe
 
 AquaLyfe isn't just your ordinary water reminder app; it's your new hydration partner. We've added a splash of innovation to make your journey towards a healthier, more hydrated you more exciting.
