@@ -9,25 +9,38 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 
 <div style="display: flex; justify-content: space-between;">
 
-  <!-- Row 1: Home Screen and Water Tracker -->
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <!-- Home Screen -->
-    <div>
-      <img src="Scr/Start-Page.jpg" alt="AquaLyfe Home" width="300">
-      <p>Home Screen</p>
-    </div>
-    <!-- Water Tracker -->
-    <div>
-      <img src="Scr/Water-tracker.jpg" alt="AquaLyfe Water Tracker" width="300">
-      <p>Water Tracker</p>
-    </div>
+  <!-- Home Screen -->
+  <div>
+    <img src="scr/Start-Page.jpg" alt="AquaLyfe Home" width="300">
+    <p>Home Screen</p>
   </div>
 
-  <!-- Row 2: Notification and Weather Update -->
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <!-- Notification -->
-    <div>
-      <img src="Scr/Notification-pops.jpg" alt="AquaLyfe Notification" width="
+  <!-- Water Tracker -->
+  <div>
+    <img src="scr/Water-tracker.jpg" alt="AquaLyfe Water Tracker" width="300">
+    <p>Water Tracker</p>
+  </div>
+
+  <!-- Notification -->
+  <div>
+    <img src="scr/Notification-pops.jpg" alt="AquaLyfe Notification" width="300">
+    <p>Notification</p>
+  </div>
+
+  <!-- Weather Update -->
+  <div>
+    <img src="scr/weather.jpg" alt="AquaLyfe Weather" width="300">
+    <p>Weather Update</p>
+  </div>
+
+  <!-- Hydration Calculator -->
+  <div>
+    <img src="scr/Hydration-calculator.jpg" alt="AquaLyfe Hydration Calculator" width="300">
+    <p>Hydration Calculator</p>
+  </div>
+
+</div>
+
 
 
 
