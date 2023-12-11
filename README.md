@@ -7,30 +7,30 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
 
 ## How the App works (Screenshots)
 
-<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+<div style="display: flex; justify-content: center; align-items: center;">
 
   <!-- Home Screen -->
-  <div>
+  <div style="margin-right: 20px;">
     <p>Home Screen</p>
     <img src="scr/Start-Page.jpg" alt="AquaLyfe Home" width="300">
   </div>
 
   <!-- Water Tracker -->
-  <div>
+  <div style="margin-right: 20px;">
     <p>Water Tracker</p>
     <img src="scr/Water-tracker.jpg" alt="AquaLyfe Water Tracker" width="300">
   </div>
 
   <!-- Notification -->
-  <div>
+  <div style="margin-right: 20px;">
     <p>Notification</p>
     <img src="scr/Notification-pops.jpg" alt="AquaLyfe Notification" width="300">
   </div>
 
   <!-- Weather Update -->
-  <div>
+  <div style="margin-right: 20px;">
     <p>Weather Update</p>
-    <img src="scr/weather.jpg" alt="AquaLyfe Weather" width="300">
+    <img src="Scr/weather.jpg" alt="AquaLyfe Weather" width="300">
   </div>
 
   <!-- Hydration Calculator -->
@@ -40,6 +40,7 @@ Welcome to **AquaLyfe**, the ultimate web application to revolutionize your hydr
   </div>
 
 </div>
+
 
 ...
 ## About AquaLyfe
