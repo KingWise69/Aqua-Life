@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Poppins", sans-serif;
+            overflow-x: hidden;
+            background-color: #f0f0f0; /* Set your desired background color */
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        #drinkSelector {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #0262bc; 
+            border-radius: 5px;
+            margin-top: 10px;
+            background-color: #ffffff; 
+            color: #333333; /* Set text color for the selector */
+        }
+        button {
+            background-color: #0262bc; /* Set your desired button color */
+            color: #ffffff; /* Set text color for the button */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        #recipeContainer img {
+            max-width: 60%; /* Adjust the image size to your preference */
+            height: auto;
+            margin: 20px 0;
+        }
+        #healthBenefits {
+            text-align: left;
+            margin-top: 20px;
+        }
+        #recommendation {
+            margin-top: 20px;
+        }
+    </style>
+    <title>AquaLyfeHealth Drinks Recommendation</title>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <!-- Your navigation bar content goes here -->
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Healthy Drinks Recommendation</h1>
+        <p>Select a healthy drink:</p>
+        <select id="drinkSelector">
+            <option value="lemonDrink">Lemon Drink</option>
+            <option value="chaiWater">Chai Water</option>
+            <option value="strawberryWater">Flavored Water (Strawberry)</option>
+            <!-- Add more options as needed -->
+        </select>
+        <button onclick="showRecipe()">Show Recipe</button>
+
+        <div id="recipeContainer"></div>
+        <div id="healthBenefits"></div>
+        <div id="recommendation"></div>
+        <div class="button-container">
+            <a href="/Drink Water/DrinkWater.html" class="button">
+              <i class='bx bx-arrow-back'></i> Start Drinking
+            </a>
+            
+            <a href="/landingPage/landingPage.html" class="button">
+              <i class='bx bx-arrow-back'></i> Dashboard
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function showRecipe() {
+            var drinkSelector = document.getElementById("drinkSelector");
+            var selectedDrink = drinkSelector.options[drinkSelector.selectedIndex].value;
+            var recipeContainer = document.getElementById("recipeContainer");
+            var healthBenefitsContainer = document.getElementById("healthBenefits");
+            var recommendationContainer = document.getElementById("recommendation");
+            var showRecipeButton = document.querySelector("button");
+    
+            // Clear previous content
+            recipeContainer.innerHTML = "";
+            healthBenefitsContainer.innerHTML = "";
+            recommendationContainer.innerHTML = "";
+    
+            // Add recipe content based on the selected drink
+            switch (selectedDrink) {
+                case "lemonDrink":
+                    recipeContainer.innerHTML = `
+                        <h2>Lemon Drink Recipe</h2>
+                        <img src="slush-cuate.png" alt="Lemon Drink">
+                        <p>Ingredients: Lemon, water, honey, ice cubes</p>
+                        <p>Instructions: Squeeze lemon into water, add honey, and stir. Add ice cubes as desired.</p>`;
+                    healthBenefitsContainer.innerHTML = "<h3>Health Benefits:</h3><p>Rich in vitamin C, aids digestion, and promotes hydration.</p>";
+                    showRecipeButton.style.backgroundColor = "#FFD700"; // Yellow
+                    break;
+                case "chaiWater":
+                    recipeContainer.innerHTML = `
+                        <h2>Chai Water Recipe</h2>
+                        <img src="tea.png" alt="Chai Water">
+                        <p>Ingredients: Chai tea bags, water, milk, sugar</p>
+                        <p>Instructions: Brew chai tea bags in hot water, add milk and sugar to taste. Stir and enjoy!</p>`;
+                    healthBenefitsContainer.innerHTML = "<h3>Health Benefits:</h3><p>Contains antioxidants, may improve heart health, and provides warmth.</p>";
+                    showRecipeButton.style.backgroundColor = "#008000"; // Green
+                    break;
+                case "strawberryWater":
+                    recipeContainer.innerHTML = `
+                        <h2>Strawberry Flavored Water Recipe</h2>
+                        <img src="slush-rafiki.png" alt="Strawberry Flavored Water">
+                        <p>Ingredients: Fresh strawberries, water, mint leaves</p>
+                        <p>Instructions: Slice strawberries, add to water, and garnish with mint leaves. Chill before serving.</p>`;
+                    healthBenefitsContainer.innerHTML = "<h3>Health Benefits:</h3><p>High in vitamins and antioxidants, supports immune health, and aids in hydration.</p>";
+                    showRecipeButton.style.backgroundColor = "#FF0000"; // Red
+                    break;
+                default:
+                    recipeContainer.innerHTML = "<p>Sorry, no recipe available for the selected drink.</p>";
+                    healthBenefitsContainer.innerHTML = "";
+                    showRecipeButton.style.backgroundColor = "#3498db"; // Default Blue
+            }
+
+            // Add recommended daily water intake
+            recommendationContainer.innerHTML = "<h3>Recommended Daily Water Intake:</h3><p>Drink between 1.0 to 5.0 liters per day based on your lifestyle.</p>";
+        }
+    </script>
+</body>
+</html>
